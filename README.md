@@ -85,6 +85,3 @@ Les données ADHD-200 (~100 Mo) sont téléchargées par `nilearn` à la premiè
 
 Bell & Sejnowski (1995) · Hyvärinen & Oja (1997) · Amari (1998) · Lee, Girolami & Sejnowski (1999) · Cardoso & Laheld (1996) · Minka (2000) · Beckmann & Smith (2004)
 
----
-
-**Sarah Eliko** — M2 Data Science (assurance, santé, finance), Université Paris-Saclay · [GitHub](https://github.com/elikosarah)
