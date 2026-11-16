@@ -4,7 +4,7 @@ Projet de Master 2 Data Science (Université Paris-Saclay, cours de Réduction d
 
 **En bref :** j'ai implémenté une ICA par gradient stochastique (`SGDICA`) avec trois variantes : hypothèse fixe sur les sources, Infomax étendu, et gradient naturel. Je l'ai comparée à Infomax et FastICA sur des signaux simulés (indice d'Amari, 20 tirages). Les mêmes outils sont ensuite appliqués à des données réelles d'IRM fonctionnelle (ADHD-200), avec une ICA probabiliste (PICA).
 
-📄 [Rapport (PDF)](Rapport_ICA_Sarah_Eliko.pdf) · 📓 [Simulations](notebooks/01_simulations.ipynb) · 🧠 [IRMf](notebooks/02_irmf_pica.ipynb)
+ 📓 [Simulations](notebooks/01_simulations.ipynb) · 🧠 [IRMf](notebooks/02_irmf_pica.ipynb)
 
 ![Comparaison des algorithmes](results/figures/amari_comparaison.png)
 
@@ -72,7 +72,6 @@ Les données ADHD-200 (~100 Mo) sont téléchargées par `nilearn` à la premiè
 ├── scripts/run_benchmark.py
 ├── tests/test_ica.py
 ├── results/             # tableaux CSV et figures générés
-└── Rapport_ICA_Sarah_Eliko.pdf
 ```
 
 ## Limites et pistes
